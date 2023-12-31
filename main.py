@@ -2,7 +2,7 @@ import os
 import pwd
 
 word: str = "From: "
-Path: str = f'/Users/{pwd.getpwuid(os.getuid())[0]}/Desktop/Email_extractor/eml/'
+Path: str = f'/Users/{pwd.getpwuid(os.getuid())[0]}/Desktop/Email_extractor-main/eml/'
 filelist = os.listdir(Path)
 
 for file in filelist:
