@@ -14,3 +14,5 @@ for file in filelist:
                     email = result[len(result) - 1]
                     o = open('emails.csv', 'a')
                     o.write(f'{email}\n')
+                    o.close()
+            f.close()
